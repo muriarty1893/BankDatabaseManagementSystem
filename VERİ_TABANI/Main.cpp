@@ -11,7 +11,7 @@ struct BankData
 
 void ICGUI_Create()
 {
-    ICG_MWTitle("Farm Bank Database");
+    ICG_MWTitle("Ciftlik Bank Database Management System");
     ICG_MWSize(625, 700);
 }
 
@@ -163,7 +163,7 @@ void ICGUI_main()
     int winWidth = 900;
     int winHeight = 600;
 
-    ICG_Static((winWidth - 450) / 2, 20, 400, 50, "Bank Management System");
+    ICG_Static((winWidth - 450) / 2, 20, 400, 50, "Ciftlik Bank Database Management System");
 
     int baseX = (winWidth - 800) / 2;
     int baseY = 100;
