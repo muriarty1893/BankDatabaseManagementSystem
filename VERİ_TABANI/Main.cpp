@@ -163,7 +163,7 @@ void ICGUI_main()
     int winWidth = 900;
     int winHeight = 600;
 
-    ICG_Static((winWidth - 500) / 2, 20, 400, 50, "Ciftlik Bank Database Management System");
+    ICG_Static((winWidth - 570) / 2, 20, 400, 50, "Ciftlik Bank Database Management System");
 
     int baseX = (winWidth - 800) / 2;
     int baseY = 100;
