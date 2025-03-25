@@ -163,7 +163,7 @@ void ICGUI_main()
     int winWidth = 900;
     int winHeight = 600;
 
-    ICG_Static((winWidth - 500) / 2, 20, 400, 50, "Bank Management System");
+    ICG_Static((winWidth - 450) / 2, 20, 400, 50, "Bank Management System");
 
     int baseX = (winWidth - 800) / 2;
     int baseY = 100;
@@ -174,7 +174,6 @@ void ICGUI_main()
     ICG_Button(baseX + 390, baseY, 120, 30, "RESET", ResetFields, &db);
     ICG_Button(baseX, baseY + 480, 120, 30, "CHOOSE PHOTO", AddPhoto, &db);
 
-    
     accountEdit = ICG_SLEditSunken(baseX, baseY + 70, 250, 25, "");
     tcEdit = ICG_SLEditSunken(baseX, baseY + 130, 250, 25, "");
     nameEdit = ICG_SLEditSunken(baseX, baseY + 190, 250, 25, "");
