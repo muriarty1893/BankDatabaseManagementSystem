@@ -22,6 +22,3 @@ Bu proje, **Çiftlik Bank Veritabanı Yönetim Sistemi** olarak tasarlanmıştı
 - **Veritabanı Yönetimi:** `BANK_DATABASE` yapısı müşteri verilerini saklar.
 - **Dosya Okuma/Yazma:** `WriteICBYTES` ve `ReadICBYTES` fonksiyonları kullanılarak veriler saklanır.
 - **Arayüz Yönetimi:** `ICGUI_main()` fonksiyonu, butonları ve giriş alanlarını oluşturur.
-
-## Katkıda Bulunma
-Projeye katkıda bulunmak için **pull request açabilir** veya hata bildiriminde bulunabilirsiniz.
